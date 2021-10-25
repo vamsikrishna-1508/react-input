@@ -1,0 +1,50 @@
+#students {
+  justify-content: center;
+  font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  border: 3px solid rgb(0, 0, 0);
+  width: 50%;
+  height: 50%;
+}
+table {
+  margin: 0 auto;
+}
+
+#students td,
+#students th {
+  border: 1px solid rgb(10, 10, 10);
+  padding: 8px;
+}
+
+#students tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#students tr:hover {
+  background-color: #ddd;
+}
+td {
+  text-align: center;
+}
+
+#students th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  background-color: #4caf50;
+  color: white;
+}
+
+button[type="delete"] {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  background-color: #c7340f;
+  color: white;
+  padding: 7px 10px;
+  margin: 8px auto;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
